@@ -1,0 +1,235 @@
+# ============================================================================
+# Gitignore for macOS + Frontend + Backend + Blockchain development (Node.js)
+# ============================================================================
+
+# === Local Project Files ===
+src/test.js
+
+# === macOS System Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+.Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# === Node / Backend ===
+node_modules/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build / Dependency outputs
+/build
+/lib-cov
+/coverage
+*.lcov
+.nyc_output
+.cache
+.parcel-cache
+.next
+out
+dist
+.nuxt
+.svelte-kit
+.webpack/
+
+# Tools / Package Managers
+bower_components
+jspm_packages
+web_modules/
+
+# Caches and Temp
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+*.tgz
+.yarn-integrity
+.yarn/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# TypeScript
+*.tsbuildinfo
+
+# dotenv files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Blockchain (Hardhat, Truffle, Foundry, etc.) ===
+artifacts/
+cache/
+coverage.json
+deployments/
+debug.log
+.forge-cache/
+foundry.toml
+*.abi
+*.bin
+
+# === VSCode ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+.ionide
+
+# === JetBrains IDEs ===
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/sqlDataSources.xml
+.idea/**/sonarlint/
+.idea/**/sonarIssues.xml
+.idea/httpRequests
+.idea/**/mongoSettings.xml
+.idea/**/azureSettings.xml
+.idea/codestream.xml
+.idea/$CACHE_FILE$
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+
+# JetBrains Caches
+out/
+buck-out/
+.buckconfig.local
+.buckd/
+.buckversion
+.fakebuckversion
+cmake-build-*/
+.idea_modules/
+
+# === Android / Xcode ===
+*.apk
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.keystore
+google-services.json
+*.hprof
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# === OS & Editor Metadata ===
+*.sublime*
+*.stackdump
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+$RECYCLE.BIN/
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+*.iws
+
+# === Misc ===
+*.backup.*
+*.back.*
+*.nfs*
+*~
+.directory
+.fuse_hidden*
+
+# ========================
+# C++ / LeetCode / Build files
+# ========================
+# Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.dwarf
+*.core
+
+# CMake build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+
+# === End ===
