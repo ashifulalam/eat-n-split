@@ -67,7 +67,7 @@ function Friend({friend}){
                 </p>
             )}
 
-            <button className="button">Select</button>
+            <Button>Select</Button>
         </li>
     )
 }
@@ -76,6 +76,8 @@ function Button ({children}) {
     return(
         <button className="button">{children}</button>
     );
+}
+
 function FormAddFriend () {
     return(
         <form className="form-add-friend">
