@@ -21,6 +21,13 @@ const initialFriends = [
   },
 ];
 
+
+function Button ({children}) {
+    return(
+        <button className="button">{children}</button>
+    );
+}
+
 export default function App(){
     return(
         <div className="app">
